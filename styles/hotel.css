@@ -1,0 +1,31 @@
+.hotel-div{
+width: 60%;
+margin:auto;
+}
+
+.headers{
+  background-color: #11294f;
+  border-radius: 5px;
+  padding: 1em 2em;
+  color: white;
+  font-family: cabin, sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1em;
+}
+
+p{
+  text-align: center;
+  line-height: 1em;
+  font-family: cabin, sans-serif;
+}
+
+.info{
+  border: 1px solid #f5896f;
+  border-radius: 5px;
+}
