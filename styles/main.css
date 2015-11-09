@@ -1,0 +1,61 @@
+/*navy=#11294f*/
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,500,700|Hind:400,500,700);
+
+img{
+  float: right;
+  width: 60%;
+  display: inline-block;
+  padding-right: 3em;
+}
+
+.side-bar{
+  margin-top: 4.5em;
+  margin-left: 1.25em;
+  float: left;
+  width: 25%;
+  display: inline-block;
+}
+
+a{
+  font-family: cabin, sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  border-radius: 5px;
+  padding: 2em 3em;
+  background-color: #11294f;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-bottom: 2em;
+}
+/*
+@-ms-viewport{
+  width: ;
+}*/
+
+@media (max-width: 600px) {
+  .side-bar{
+    display: block;
+    margin-top: 2.5em;
+    width: 94%;
+    margin: 0 auto;
+    padding: 3%;
+  }
+  a{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2em 0;
+    margin-bottom: 1.5em;
+  }
+  img{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+    margin: 0px;
+  }
+
+}
