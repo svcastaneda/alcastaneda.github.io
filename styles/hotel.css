@@ -31,6 +31,19 @@ p{
   border-radius: 5px;
 }
 
+#phone{
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  font-family: cabin, sans-serif;
+  padding-bottom: 1em;
+}
+
+#phone a{
+  text-decoration: none;
+  color: #696969;
+}
+
 @media (max-width: 600px) {
   h1{
     font-size: 1.25em;
