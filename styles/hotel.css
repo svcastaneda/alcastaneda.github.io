@@ -1,22 +1,23 @@
 .hotel-div{
-width: 60%;
+width: 75%;
 margin:auto;
+font-family: cabin, sans-serif;
 }
 
 .headers{
-  background-color: #11294f;
-  border-radius: 5px;
-  padding: 1em 2em;
-  color: white;
-  font-family: cabin, sans-serif;
   text-align: center;
 }
 
 h1{
   font-size: 1.5em;
+  background-color: #11294f;
+  border-radius: 5px;
+  padding: 1em 2em;
+  color: white;
 }
 h3{
-  font-size: 1em;
+  font-size: 1.25em;
+  color: #f5896f;
 }
 
 p{
