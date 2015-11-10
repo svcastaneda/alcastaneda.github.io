@@ -1,0 +1,16 @@
+div{
+  background: url("https://upload.wikimedia.org/wikipedia/commons/5/52/Heart_icon_red_hollow.svg") no-repeat center center fixed;
+  width: 100%;
+  height:40em;
+  margin: auto;
+  background-size: contain;
+}
+
+p{
+  font-family: cabin, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  margin: 0 auto;
+ padding-top: 7em;
+  width: 40%;
+}
