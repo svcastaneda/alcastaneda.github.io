@@ -4,10 +4,17 @@ width: 100%;
 
 
 .table{
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding: 0;
     font-size: .75em;
+}
+
+th{
+  text-align: center;
+}
+td{
+  text-align: center;
 }
 
 table:last-child{
