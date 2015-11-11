@@ -14,3 +14,16 @@ p{
  padding-top: 7em;
   width: 40%;
 }
+
+@media (max-width: 1000px) {
+
+  div{
+    height: 90em;
+  }
+
+  p{
+    font: blue;
+    font-size: 4em;
+    padding-top: 12em;
+  }
+}
