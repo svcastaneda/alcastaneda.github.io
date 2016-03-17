@@ -48,11 +48,46 @@ a{
   padding-right: 20px;
 }
 
-h2, h3{
+.index{
   color: #FF6961;
   text-align: center;
 }
 
+
+@media (max-width: 1075px) {
+  .hero-img img{
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 859px) {
+  .hero-img img{
+    margin-bottom: 4.5%;
+    width: 25%;
+  }
+}
+
+@media (max-width: 657px) {
+  .hero-img img{
+    margin-bottom: 5%;
+    width: 30%;
+  }
+}
+
+@media (max-width: 572px) {
+  .hero-img img{
+    margin-bottom: 4.5%;
+    width: 40%;
+  }
+
+  .hero-img h1{
+    font-size: 2em;
+  }
+
+  .nav-bar{
+    font-size: 1em;
+  }
+}
 /*img{
   float: right;
   width: 60%;
