@@ -20,6 +20,13 @@ $(document).ready(function() {
           $(".content").show();
     });
 
+    $("#registry").on('click', function(event) {
+          $(".index").hide();
+          event.preventDefault();
+          getRegistry();
+          $(".content").show();
+    });
+
 });
 
 
@@ -60,6 +67,17 @@ function getFAQ(){
          }).done(function(data) {
             var bod = $(data).children();
             console.log(data);
+            $(".content").html(bod);
+         });
+}
+
+function getRegistry(){
+   $.ajax({
+            url: "http://alcastaneda.github.io/registry.html",
+            dataType: "html"
+         }).done(function(data) {
+            var bod = $(data).children();
+            console.log(bod);
             $(".content").html(bod);
          });
 }
