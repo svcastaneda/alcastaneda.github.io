@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+    $("#home").on('click', function(event) {
+        event.preventDefault();
+        $(".index").show();
+        $(".content").hide();
+    });
+
     $("#hotel").on('click', function(event) {
           $(".index").hide();
           event.preventDefault();
@@ -7,11 +13,13 @@ $(document).ready(function() {
           $(".content").show();
     });
 
-    $("#home").on('click', function(event) {
-        event.preventDefault();
-        $(".index").show();
-        $(".content").hide();
+    $("#faq").on('click', function(event) {
+          $(".index").hide();
+          event.preventDefault();
+          getFAQ();
+          $(".content").show();
     });
+
 });
 
 
@@ -44,3 +52,14 @@ function getPrices(){
              });
         });
 };
+
+function getFAQ(){
+   $.ajax({
+            url: "http://alcastaneda.github.io/faq.html",
+            dataType: "html"
+         }).done(function(data) {
+            var bod = $(data).children();
+            console.log(bod);
+            $(".content").html(bod);
+         });
+}
