@@ -4,6 +4,13 @@ $(document).ready(function() {
           $(".index").hide();
           event.preventDefault();
           getHotel();
+          $(".content").show();
+    });
+
+    $("#home").on('click', function(event) {
+        event.preventDefault();
+        $(".index").show();
+        $(".content").hide();
     });
 });
 
