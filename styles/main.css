@@ -101,12 +101,14 @@
     font-size: 2em;
   }
 
-  .nav-bar{
+  .nav-bar a{
     font-size: 1em;
+   padding-left: 50px;
+   padding-right: 50px;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 580px) {
   .hero-img img{
     margin-bottom: 15%;
     width: 30%;
@@ -116,14 +118,16 @@
     font-size: 2em;
   }
 
-  .nav-bar{
-    font-size: 1.2em;
+  .nav-bar a{
+    font-size: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .hero-img img{
-    margin-bottom: 12%;
+    margin-bottom: 15%;
     width: 40%;
   }
 
@@ -131,8 +135,10 @@
     font-size: 2em;
   }
 
-  .nav-bar{
-    font-size: 0.8em;
+  .nav-bar a{
+    font-size: .8em;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 /*img{
