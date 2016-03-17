@@ -4,6 +4,8 @@ $(document).ready(function() {
 
       event.preventDefault();
 
+      $(".index").hide();
+
         $.ajax({
             url: "http://alcastaneda.github.io/hotel.html",
             dataType: "html"
