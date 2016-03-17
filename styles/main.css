@@ -2,6 +2,11 @@
 /*coral= #FF6961*/
 @import url(https://fonts.googleapis.com/css?family=Cabin:400,500,700|Hind:400,500,700);
 
+.content{
+  color: black;
+  height: 300px;
+  width: 100%;
+}
 .wrapper{
   position: relative;
 }
