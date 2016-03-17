@@ -3,11 +3,10 @@ width: 100%;
 }
 
 
-.table{
+table{
   width: 70%;
   margin: auto;
   padding: 0;
-    font-size: .75em;
 }
 
 th{
@@ -27,3 +26,4 @@ table:last-child{
   width: 100%;
 }
 }
+
