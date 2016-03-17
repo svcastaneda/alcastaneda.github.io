@@ -1,4 +1,30 @@
-.hotel-div{
+/*Font color : #f5896f;ballet
+/*navy=#11294f*/
+/*coral= #FF6961*/
+/*blue= #B2D8D9*/
+
+.headers{
+  width: 70%;
+  margin:auto;
+  margin-top: 20px;
+  padding: 15px 15px;
+}
+
+h1.headers{
+  background-color: #04395E;
+  color: white;
+}
+
+h3.headers{
+  color: #FF6961;
+}
+
+.content a{
+  color: #FF6961;
+  text-decoration: none;
+}
+
+/*.hotel-div{
 width: 75%;
 margin:auto;
 font-family: cabin, sans-serif;
@@ -53,3 +79,4 @@ p{
   }
   }
 
+*/
