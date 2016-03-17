@@ -53,6 +53,12 @@ a{
   text-align: center;
 }
 
+#credit{
+  color: black;
+  font-size: .5em;
+  bottom: 1px;
+  margin-top: 300px;
+}
 
 @media (max-width: 1075px) {
   .hero-img img{
@@ -76,7 +82,7 @@ a{
 
 @media (max-width: 572px) {
   .hero-img img{
-    margin-bottom: 4.5%;
+    margin-bottom: 5%;
     width: 40%;
   }
 
