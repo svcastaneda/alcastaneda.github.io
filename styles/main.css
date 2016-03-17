@@ -1,11 +1,15 @@
 /*navy=#11294f*/
 /*coral= #FF6961*/
+/*blue= #B2D8D9*/
 @import url(https://fonts.googleapis.com/css?family=Cabin:400,500,700|Hind:400,500,700);
 
+*{
+  font-family: Cabin;
+}
 .content{
-  color: black;
-  height: 300px;
-  width: 100%;
+  width: 80%;
+  margin:auto;
+  text-align: center;
 }
 .wrapper{
   position: relative;
@@ -16,7 +20,6 @@
   width: 100%;
   background-color: #B2D8D9;
   margin: 0px;
-  font-family: Cabin;
   color: white;
 }
 
@@ -43,8 +46,7 @@
     background-color: #FF6961 ;
 }
 
-a{
-  font-family: Cabin;
+.nav-bar a{
   display: inline-block;
   margin: 3px;
   text-decoration: none;

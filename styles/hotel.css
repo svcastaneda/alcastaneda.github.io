@@ -1,6 +1,13 @@
 /*Font color : #f5896f;ballet
 */
-.hotel-div{
+.headers{
+  background-color: #04395E;
+  color: white;
+  width: 70%;
+  margin:auto;
+}
+
+/*.hotel-div{
 width: 75%;
 margin:auto;
 font-family: cabin, sans-serif;
@@ -55,3 +62,4 @@ p{
   }
   }
 
+*/
