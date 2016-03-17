@@ -1,12 +1,17 @@
 $(document).ready(function() {
 
   $("#hotel").on('click', function(event) {
-
-      event.preventDefault();
-
       $(".index").hide();
+      event.preventDefault();
+      getHotel();
+  });
 
-        $.ajax({
+});
+
+
+
+function getHotel(){
+  $.ajax({
             url: "http://alcastaneda.github.io/hotel.html",
             dataType: "html"
          }).done(function(data) {
@@ -14,6 +19,4 @@ $(document).ready(function() {
             console.log(bod);
             $(".content").html(bod);
          });
-  });
-
-});
+};
